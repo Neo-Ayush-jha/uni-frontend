@@ -1,1 +1,1 @@
-export const API_BASE = "https://university-backend-pbmo.onrender.com//api";
+export const API_BASE = "https://university-backend-pbmo.onrender.com/api";
