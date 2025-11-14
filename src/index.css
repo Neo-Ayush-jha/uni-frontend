@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Feature Cards */
+.feature-card {
+  @apply p-6 rounded-xl bg-white shadow-md border hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+}
+
+.feature-title {
+  @apply font-semibold text-lg mb-3 text-slate-800;
+}
+
+.feature-text {
+  @apply text-sm text-slate-600 leading-relaxed;
+}
+
+/* Buttons */
+.cta-primary {
+  @apply px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow hover:bg-blue-700 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5;
+}
+
+.cta-secondary {
+  @apply px-6 py-3 border font-medium rounded-xl hover:bg-slate-100 transition shadow hover:shadow-lg hover:-translate-y-0.5;
+}
+
+/* Glass Card */
+.glass-card {
+  @apply bg-white/70 backdrop-blur-xl border shadow-2xl;
+}
+
+/* Inputs */
+.input {
+  @apply w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none bg-white shadow-sm hover:shadow-md transition;
+}
